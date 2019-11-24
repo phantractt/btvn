@@ -18,12 +18,15 @@ public class Btvnbuoi2 {
         sln = a;
         if (sln < b) {
             sln = b;
-        } else if (sln < c) {
-            sln = c;
-        } else if (sln < d) {
-            sln = d;
-        } else if (sln < e) {
-            sln = e;
+            if (sln < c) {
+                sln = c;
+                if (sln < d) {
+                    sln = d;
+                    if (sln < e) {
+                        sln = e;
+                    }
+                }
+            }
         } else {
             sln = a;
         }
@@ -45,15 +48,19 @@ public class Btvnbuoi2 {
         int doan;
         doan = sc.nextInt();
         Random rd = new Random();
-        int so = rd.nextInt();
-        if (doan > so) {
-            System.out.println("Qua cao, thu lai");
-        } else if (doan < so) {
-            System.out.println("Qua thap, thu lai");
-        } else {
-            doan = so;
-            System.out.println("Chuc mung ban da doan dung");
+        while (true) {
+            int so = rd.nextInt();
+            if (doan > so) {
+                System.out.println("Qua cao, thu lai");
+                continue;
+            } else if (doan < so)
+                System.out.println("Qua thap, thu lai");
+            } else {
+                System.out.println("Chuc mung ban da doan dung");
+            }
+            break;
         }
+
     }
 
 }

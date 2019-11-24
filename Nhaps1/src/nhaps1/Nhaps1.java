@@ -42,31 +42,50 @@ public class Nhaps1 {
 //        } else {
 //            System.out.println("Chu nhat");
 //        }
-        System.out.println("Input");
+//        System.out.println("Input");
+//        Scanner sc = new Scanner(System.in);
+//        String s = sc.nextLine();
+//        switch (s) {
+//            case :
+//                System.out.println("Hai");
+//                break;
+//            case :
+//                System.out.println("Ba");
+//                break;
+//            case bon:
+//                System.out.println("Tu");
+//                break;
+//            case nam:
+//                System.out.println("Nam");
+//                break;
+//            case sau:
+//                System.out.println("Sau");
+//                break;
+//            case bay:
+//                System.out.println("Bay");
+//                break;
+//            default:
+//                System.out.println("Chu Nhat");
+//                break;
+//        }
         Scanner sc = new Scanner(System.in);
-        String s = sc.nextLine();
-        switch (s) {
-            case :
-                System.out.println("Hai");
-                break;
-            case :
-                System.out.println("Ba");
-                break;
-            case bon:
-                System.out.println("Tu");
-                break;
-            case nam:
-                System.out.println("Nam");
-                break;
-            case sau:
-                System.out.println("Sau");
-                break;
-            case bay:
-                System.out.println("Bay");
-                break;
-            default:
-                System.out.println("Chu Nhat");
-                break;
+        int min = Integer.MAX_VALUE;
+        int max = Integer.MIN_VALUE;
+        for (int i = 0; i < 10; i++) {
+            System.out.println("Input");
+            int temp = sc.nextInt();
+            if (temp > max) {
+                max = temp;
+            }
+            if (temp < min) {
+                min = temp;
+            }
+        }
+        int randomNumber=(int) (Math.random()*100);
+        while(true){
+            System.out.println("so");
+            int so=sc.nextInt();
+            if()
         }
     }
 
