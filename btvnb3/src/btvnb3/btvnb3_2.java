@@ -69,7 +69,7 @@ public class btvnb3_2 {
         //////////////////////////
         int x1 = sc.nextInt();
         System.out.println("nhap x1: " + x1);
-        ///////////////////////
+        
         int check = 0;
         for (int i = 0; i < d; i++) {
             if (arr[i] == arr[d - i - 1]) {
