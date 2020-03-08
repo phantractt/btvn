@@ -66,27 +66,27 @@ public class Nhaps1 {
 //                break;
 //            default:
 //                System.out.println("Chu Nhat");
-//                break;
+////                break;
+////        }
+//        Scanner sc = new Scanner(System.in);
+//        int min = Integer.MAX_VALUE;
+//        int max = Integer.MIN_VALUE;
+//        for (int i = 0; i < 10; i++) {
+//            System.out.println("Input");
+//            int temp = sc.nextInt();
+//            if (temp > max) {
+//                max = temp;
+//            }
+//            if (temp < min) {
+//                min = temp;
+//            }
 //        }
-        Scanner sc = new Scanner(System.in);
-        int min = Integer.MAX_VALUE;
-        int max = Integer.MIN_VALUE;
-        for (int i = 0; i < 10; i++) {
-            System.out.println("Input");
-            int temp = sc.nextInt();
-            if (temp > max) {
-                max = temp;
-            }
-            if (temp < min) {
-                min = temp;
-            }
-        }
-        int randomNumber=(int) (Math.random()*100);
-        while(true){
-            System.out.println("so");
-            int so=sc.nextInt();
-            if()
-        }
+//        int randomNumber=(int) (Math.random()*100);
+//        while(true){
+//            System.out.println("so");
+//            int so=sc.nextInt();
+//            if()
+//        }
     }
 
 }
